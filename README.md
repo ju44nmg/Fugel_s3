@@ -1,4 +1,4 @@
-# AWS S3 Bucket creation
+# AWS EKS + S3 + VPC
 
 This module contains the following:
 
@@ -19,8 +19,9 @@ To run the Github Actions:
 To run the Terraform Code:
 
 - Configure AWS CLI with an active account
-- go to ```terraform/src```folder, and then run ```terraform apply --auto-approve``` to run the code
+- go to ```terraform/main_tf```folder, and then run ```terraform apply --auto-approve``` to run the code
 
+#Terratest hasnt been made yet
 To run the Terratest Code:
 
 - As with Terraform, configure the AWS CLI with an active account
